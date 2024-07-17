@@ -1,5 +1,5 @@
 # Introduction
-In this version, the VGG model was mainly modified and built for **train_comvnet_pytorch. py** and **convnet_pytorch. py**, and training and testing were completed. In addition, for the convenience of using DataLoader to load data, slight modifications were made to **cifar10_utils. py**, and comments were added (the __len__ and __getitem__ functions were added to the Dataset class)
+In this version, the VGG model was mainly modified and built for **train_comvnet_pytorch. py** and **convnet_pytorch. py**, and training and testing were completed. In addition, for the convenience of using DataLoader to load data, slight modifications were made to **cifar10_utils. py**, and comments were added (the /__len/__ and /__getitem/__ functions were added to the Dataset class)
 
 If the code in **cifar10_utils. py** is not modified, the following code can be added to **train_comvnet_pytorch. py**
 And after loading the CIFAR-10 dataset, call it in the following way

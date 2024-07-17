@@ -33,18 +33,6 @@ FLAGS = None
 # Selection of device
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-'''class DataSetAdapter(Dataset):
-  def __init__(self, data_set):
-    self.data_set = data_set
-
-  def __len__(self):
-    # 返回数据集中的样本总数
-    return self.data_set.num_examples
-
-  def __getitem__(self, index):
-    # 获取一个批次的数据
-    images, labels = self.data_set.next_batch(batch_size=32)
-    return images, labels'''
 
 def accuracy(predictions, targets):
   """
